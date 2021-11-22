@@ -1,15 +1,15 @@
-# zipbomb: a tool for zip bombs
+# `zipbomb`: a tool for zip bombs
 
 `zipbomb` is a Python 3 script that generates zip bombs according to parameters. Example:
 ```
-python3 zipbomb --mode=quoted_overlap --num-files=250 --compressed-size=21179 > zbsm.zip
+$ python3 zipbomb --mode=quoted_overlap --num-files=250 --compressed-size=21179 > zbsm.zip
 ```
 See `Makefile` for some examples of using it.
 
 `optimize.R` is an R script that computes optimal parameters for the `zipbomb` script, for zip bombs of various sizes.
 `optimize.out` is pregenerated output of `optimize.R`.
 ```
-Rscript optimize.R | tee optimize.out
+$ Rscript optimize.R | tee optimize.out
 ```
 The optimized parameters are what you see in `Makefile`.
 
@@ -22,7 +22,7 @@ zblg.zip    281395456244934 / 9893525      28442385.9286689      +74.54 dB
 zbxl.zip    4507981427706459 / 45876952    98262444.01996146     +79.924 dB
 ```
 
-## zipbomb usage
+## `zipbomb` usage
 
 The required options are the number of files you want the zip bomb to contain,
 ```
