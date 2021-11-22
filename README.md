@@ -83,4 +83,4 @@ The `--num-files` option is *in addition* to whatever files are in the template.
 
 All credit for `zipbomb` goes to the original author: David Fifield <david@bamsoftware.com>
 
-You can find more information about `zipbomb` at this link: https://www.bamsoftware.com/hacks/zipbomb/
+You can find more information about `zipbomb` at the link https://www.bamsoftware.com/hacks/zipbomb/ or in the `doc` folder.
